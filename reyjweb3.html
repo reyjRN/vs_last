@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NORMAL VITAL SIGNS</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #3498db;
+            cursor: pointer;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .mini-title {
+            color: #555;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .lowered-range {
+            background-color: #ffd699;
+            color: #d35400;
+        }
+
+        .normal-range {
+            background-color: #b3e0ff;
+            color: #3498db;
+        }
+
+        .elevated-range {
+            background-color: #ff9999;
+            color: #c0392b;
+        }
+
+        .credits {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+    <script>
+        function showImportance() {
+            alert("Maintaining normal vital signs is essential for monitoring and promoting optimal health. It aids in early detection of potential issues, allowing for timely intervention. Consult with healthcare professionals for personalized advice.");
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1 onclick="showImportance()">NORMAL VITAL SIGNS</h1>
+        <div class="mini-title">WE SHOULD REMEMBER THESE AS A STUDENT NURSE</div>
+        <p>As a student nurse, understanding and maintaining knowledge of normal vital signs are crucial aspects of your education. The ability to monitor and interpret vital signs is fundamental in providing safe and effective patient care. It contributes to early identification of potential health issues, enabling timely intervention and promoting overall well-being.</p>
+
+        <table>
+            <tr>
+                <th>Vital Sign</th>
+                <th>Lowered Range</th>
+                <th>Normal Range</th>
+                <th>Elevated Range</th>
+            </tr>
+            <tr>
+                <td>Heart Rate</td>
+                <td class="lowered-range">&lt;60 bpm</td>
+                <td class="normal-range">60-100 bpm</td>
+                <td class="elevated-range">&gt;100 bpm</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th>Vital Sign</th>
+                <th>Lowered Range</th>
+                <th>Normal Range</th>
+                <th>Elevated Range</th>
+            </tr>
+            <tr>
+                <td>Blood Pressure</td>
+                <td class="lowered-range">&lt;90/60 mmHg</td>
+                <td class="normal-range">90-120/80 mmHg</td>
+                <td class="elevated-range">&gt;120/80 mmHg</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th>Vital Sign</th>
+                <th>Lowered Range</th>
+                <th>Normal Range</th>
+                <th>Elevated Range</th>
+            </tr>
+            <tr>
+                <td>Temperature</td>
+                <td class="lowered-range">&lt;97.8°F (&lt;36.5°C)</td>
+                <td class="normal-range">97.8°F to 99.1°F (36.5°C to 37.3°C)</td>
+                <td class="elevated-range">&gt;99.1°F (&gt;37.3°C)</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th>Vital Sign</th>
+                <th>Lowered Range</th>
+                <th>Normal Range</th>
+                <th>Elevated Range</th>
+            </tr>
+            <tr>
+                <td>Respiratory Rate</td>
+                <td class="lowered-range">&lt;12 breaths/min</td>
+                <td class="normal-range">12-20 breaths/min</td>
+                <td class="elevated-range">&gt;20 breaths/min</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th>Vital Sign</th>
+                <th>Lowered Range</th>
+                <th>Normal Range</th>
+                <th>Elevated Range</th>
+            </tr>
+            <tr>
+                <td>SpO2 (Blood Oxygen Level)</td>
+                <td class="lowered-range">&lt;95%</td>
+                <td class="normal-range">95-100%</td>
+                <td class="elevated-range">&gt;100%</td>
+            </tr>
+        </table>
+
+        <div class="credits">
+            Coded by Rey John N. Ragas, BSN 2-1
+        </div>
+    </div>
+</body>
+</html>
